@@ -44,7 +44,7 @@ void RepositoryViewDelegate::paint(QPainter *p, const QStyleOptionViewItem &opt,
    p->setRenderHints(QPainter::Antialiasing);
 
    QStyleOptionViewItem newOpt(opt);
-   newOpt.font.setPointSize(9);
+   newOpt.font.setPointSize(11);
 
    if (newOpt.state & QStyle::State_Selected)
       p->fillRect(newOpt.rect, GitQlientStyles::getGraphSelectionColor());
